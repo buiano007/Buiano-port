@@ -1,0 +1,74 @@
+.introduction{
+    height:100vh;
+    width:100%;
+    background-position: 100% 100%;
+    background-size: cover;
+    
+}
+.introduction p{
+    color: white;
+    font-size: 20px;
+}
+.introduction div h1{
+     font-weight: bold;
+     color: rgba(255, 255, 255, 0.466);
+     font-size: 50px;
+}
+.introduction div h1:hover{
+   color: white;
+   cursor: default;
+   text-shadow: 0px 0px 10px #fff;
+}
+.primary-button{
+    background-color:white;
+    height:55px;
+    border-radius:25px;
+    border:none;
+    width: 60%;
+}
+
+.primary-button a{
+    text-decoration:none;
+    color: black;
+}
+
+
+
+.devstack{
+    color: black;
+    transition:all 0.5s;
+    padding: 10px;
+}
+.devstack:hover{
+    color: white;
+    background-color:#001310;
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+
+
+
+@media(max-width:750px){
+    .introduction div h1{
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.466);
+        font-size: 28px;
+   }
+   .introduction p{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+   .primary-button{
+    background-color:white;
+    height:35px;
+    border-radius:20px;
+    border:none;
+    width: auto;
+    padding: 5px 15px;
+    margin-top: 6px;
+}
+
+
+}
